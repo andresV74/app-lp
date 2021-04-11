@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-223,-532)">
+        <g id="ico-portafolio" transform="matrix(1,0,0,1,-4.9951,-3.1976)">
+            <g transform="matrix(0.999606,0,0,0.999606,3.97427,2.09736)">
+                <rect x="224.109" y="533.31" width="64.025" height="64.025" style="fill:none;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,274.745,554.848)">
+                <path d="M0,36L-33,36C-36.309,36 -39,33.309 -39,30L-39,6C-39,2.691 -36.309,0 -33,0L0,0C3.309,0 6,2.691 6,6L6,11L4,11L4,6C4,3.794 2.206,2 0,2L-33,2C-35.206,2 -37,3.794 -37,6L-37,30C-37,32.206 -35.206,34 -33,34L0,34C2.206,34 4,32.206 4,30L4,24.5L6,24.5L6,30C6,33.309 3.309,36 0,36" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,263.245,578.348)">
+                <path d="M0,-11.5C-2.206,-11.5 -4,-9.706 -4,-7.5L-4,-4C-4,-1.794 -2.206,0 0,0L19,0L19,-11.5L0,-11.5ZM21,2L0,2C-3.309,2 -6,-0.691 -6,-4L-6,-7.5C-6,-10.809 -3.309,-13.5 0,-13.5L21,-13.5L21,2Z" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,251.126,543.547)">
+                <path d="M0,9.225L-0.762,7.375L17.15,0L20.538,7.907L18.7,8.694L16.088,2.6L0,9.225Z" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,265.745,573.848)">
+                <path d="M0,-2C-0.551,-2 -1,-1.552 -1,-1C-1,-0.448 -0.551,0 0,0C0.551,0 1,-0.448 1,-1C1,-1.552 0.551,-2 0,-2M0,1C-1.103,1 -2,0.103 -2,-1C-2,-2.103 -1.103,-3 0,-3C1.103,-3 2,-2.103 2,-1C2,0.103 1.103,1 0,1" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

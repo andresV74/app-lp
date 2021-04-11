@@ -1,0 +1,51 @@
+.banner {
+	padding: 80px 0 40px 30px;
+	background-image: url(/images/bg-banner.png);
+	background-position: center;
+	background-size: cover;
+
+	&__container {
+		display: grid;
+		grid-template-columns: 390px minmax(300px, 496px);
+		grid-gap: 60px;
+		max-width: 946px;
+		margin: auto;
+	}
+
+	&__body {
+		color: #fff;
+
+		.title {
+			margin-bottom: 30px;
+
+			&__first {
+				font-size: 3.875rem;
+				font-weight: bold;
+			}
+
+			&__last {
+				font-size: 2.875rem;
+				font-weight: 300;
+			}
+		}
+
+		.body {
+			max-width: 300px;
+			margin-top: 30px;
+			font-size: 2.125rem;
+			font-weight: 300;
+		}
+
+		.appLinks {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			margin-top: 40px;
+			list-style: none;
+		}
+	}
+
+	&__image img {
+		width: 100%;
+	}
+}

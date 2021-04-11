@@ -1,0 +1,11 @@
+.appLink {
+	list-style: none;
+
+	&:first-child {
+		margin-right: 50px;
+	}
+
+	& img {
+		width: 100%;
+	}
+}

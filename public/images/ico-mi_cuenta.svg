@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4943,-735)">
+        <g transform="matrix(1,0,0,1,1383.76,525.372)">
+            <g id="ico-mi_cuenta" transform="matrix(1,0,0,1,-4.0905,0.66505)">
+                <g transform="matrix(1,0,0,1,-1387.05,-525.575)">
+                    <rect x="4951.14" y="734.91" width="64" height="64" style="fill:none;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,3614.21,246.395)">
+                    <path d="M0,16.4C-0.552,16.4 -1,15.953 -1,15.4L-1,11C-1,6.037 -5.037,2 -10,2L-26.239,2C-31.202,2 -35.239,6.037 -35.239,11L-35.239,15.4C-35.239,15.953 -35.688,16.4 -36.239,16.4C-36.792,16.4 -37.239,15.953 -37.239,15.4L-37.239,11C-37.239,4.934 -32.305,0 -26.239,0L-10,0C-3.935,0 1,4.934 1,11L1,15.4C1,15.953 0.553,16.4 0,16.4" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,3596.09,237.751)">
+                    <path d="M0,-15.876C-4.377,-15.876 -7.937,-12.315 -7.937,-7.939C-7.937,-3.562 -4.377,0 0,0C4.377,0 7.938,-3.562 7.938,-7.939C7.938,-12.315 4.377,-15.876 0,-15.876M0,2C-5.479,2 -9.938,-2.458 -9.938,-7.939C-9.938,-13.418 -5.479,-17.876 0,-17.876C5.48,-17.876 9.938,-13.418 9.938,-7.939C9.938,-2.458 5.48,2 0,2" style="fill:rgb(0,30,98);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
