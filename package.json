@@ -1,0 +1,22 @@
+{
+  "name": "btg-app",
+  "version": "1.0.0",
+  "description": "BTG App onboarding landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "author": "Andrés Valencia",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^8.31.0",
+    "sass": "^1.32.8",
+    "swiper": "^6.5.6"
+  }
+}

@@ -1,0 +1,21 @@
+.features {
+	margin-bottom: 38px;
+	padding: 14px 30px 36px;
+	background-image: url(/images/bg-features.png);
+	background-position: center;
+	background-size: cover;
+
+	&__container {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+		max-width: 1050px;
+		margin: auto;
+	}
+
+	&__appLinks {
+		display: flex;
+		max-width: 330px;
+		margin: 70px auto 0;
+	}
+}

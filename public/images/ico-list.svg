@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-672,-961)">
+        <g id="ico-list" transform="matrix(1,0,0,1,0.2148,0.2148)">
+            <g transform="matrix(0,1,1,0,680.785,960.785)">
+                <path d="M9,-9C4.029,-9 0,-4.971 0,0C0,4.971 4.029,9 9,9C13.971,9 18,4.971 18,0C18,-4.971 13.971,-9 9,-9" style="fill:rgb(10,70,220);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,686.233,973.252)">
+                <path d="M0,-6.934C0,-7.058 -0.124,-7.182 -0.248,-7.182C-0.31,-7.182 -0.372,-7.182 -0.434,-7.12L-6.934,-0.372L-10.463,-3.901C-10.525,-3.962 -10.587,-3.962 -10.649,-3.962C-10.772,-3.962 -10.896,-3.839 -10.896,-3.715C-10.896,-3.653 -10.896,-3.591 -10.834,-3.53L-7.12,0.185C-7.058,0.248 -6.996,0.248 -6.934,0.248C-6.872,0.248 -6.811,0.248 -6.749,0.185L-0.062,-6.748C0,-6.81 0,-6.872 0,-6.934" style="fill:white;stroke:white;stroke-width:0.41px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

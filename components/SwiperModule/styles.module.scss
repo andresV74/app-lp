@@ -1,0 +1,102 @@
+.swiper {
+	margin: 70px 0;
+
+	.slide {
+
+		&__container {
+			display: grid;
+			grid-template-columns: 240px minmax(auto, 558px);
+			grid-gap: 90px;
+			max-width: 928px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+
+		.video video {
+			outline:none;
+		}
+
+		.contents {
+			margin-top: 10px;
+
+			&__title {
+				display: flex;
+				align-items: center;
+
+				img {
+					width: 64px;
+					margin-right: 8px;
+				}
+
+				h3 {
+					font-size: 3rem;
+					font-weight: normal;
+					color: var(--color-midBlue);
+				}
+			}
+
+			&__subtitle,
+			&__description,
+			&__attributes,
+			&__finalText {
+				padding-left: 72px;
+			}
+			
+			&__subtitle,
+			&__finalText {
+				margin: 15px 0 20px;
+				font-size: 1.5rem;
+				font-weight: normal;
+				color: var(--color-blue);
+			}
+
+			&__description {
+				margin: 0 0 45px;
+				font-size: 1.125rem;
+				font-weight: 300;
+				color: var(--color-gray33);
+			}
+
+			&__attributes {
+				list-style: none;
+
+				li {
+					position: relative;
+					padding: 0 0 24px 24px;
+					font-size: 1.125rem;
+					font-weight: 300;
+					color: var(--color-gray33);
+
+					&::before {
+						content: url(/images/ico-list.svg);
+						position: absolute;
+						left: 0;
+						top: 2px;
+						width: 18px;
+						height: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.thumb {
+	margin: 10px 20px 0;
+
+	.slide {
+		width: 120px;
+		text-align: center;
+
+		&__icon {
+			width: 64px;
+		}
+
+		&_title {
+			margin-top: 6px;
+			font-size: 1.125rem;
+			font-weight: 400;
+			color: var(--color-midBlue);
+		}
+	}
+}
