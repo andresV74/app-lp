@@ -1,6 +1,6 @@
 const data = {
   '2zd33b8c': {
-    icon: '/images/ico-portafolio.svg',
+    icon: './images/ico-portafolio.svg',
     name: 'Portafolio',
     id: '01',
     subtitle: 'Conocer a fondo su portafolio es muy fácil',
@@ -12,7 +12,7 @@ const data = {
     finalText: '',
   },
   '6trfgkkj': {
-    icon: '/images/ico-movimientos.svg',
+    icon: './images/ico-movimientos.svg',
     name: 'Movimientos',
     id: '02',
     subtitle: 'Acceso fácil a los movimientos y transacciones de sus productos',
@@ -24,7 +24,7 @@ const data = {
     finalText: '',
   },
   '7bcr49em': {
-    icon: '/images/ico-transacciones.svg',
+    icon: './images/ico-transacciones.svg',
     name: 'Transacciones',
     id: '03',
     subtitle: 'Realice transacciones como...',
@@ -36,7 +36,7 @@ const data = {
     finalText: '...de manera fácil y amigable',
   },
   '098323ks': {
-    icon: '/images/ico-extractos.svg',
+    icon: './images/ico-extractos.svg',
     name: 'Extractos',
     id: '04',
     subtitle: 'Descargue sus extractos en cualquier momento, a cualquier hora.',
@@ -46,7 +46,7 @@ const data = {
     finalText: '',
   },
   b8uthe2y: {
-    icon: '/images/ico-mi_cuenta.svg',
+    icon: './images/ico-mi_cuenta.svg',
     name: 'Mi Cuenta',
     id: '05',
     subtitle: 'Contacto y soporte siempre a la mano',

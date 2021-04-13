@@ -1,4 +1,4 @@
-import DB from '@database'
+import DB from '../../../database/db'
 
 const SwiperData = async (request, response) => {
 	const db = new DB()

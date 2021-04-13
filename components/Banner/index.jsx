@@ -1,5 +1,5 @@
 import React from 'react'
-import AppLinks from '@components/AppLinks'
+import AppLinks from '../AppLinks'
 import styles from './styles.module.scss'
 
 const Banner = () => (
@@ -16,7 +16,7 @@ const Banner = () => (
 				</ul>
 			</div>
 			<div className={styles.banner__image}>
-				<img src="/images/img-cellphone.png" />
+				<img src="./images/img-cellphone.png" />
 			</div>
 		</div>
 	</section>

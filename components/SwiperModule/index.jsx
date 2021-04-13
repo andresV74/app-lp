@@ -45,15 +45,15 @@ const SwiperModule = () => {
         navigation
         spaceBetween={0}
         slidesPerView={1}
-        onInit={(swiper) => console.log('swiper initialized', swiper)}
+        onInit={(swiper) => console.log('swiper initialized', swiper.el.lastElementChild.children)}
         onSlideChange={(swiper) => swiper.el.lastElementChild.children[swiper.activeIndex].firstElementChild.firstElementChild.firstElementChild.play()}
       >
         {swipeList.map(({id, video, icon, name, subtitle, description, attributes, finalText }) => (
-          <SwiperSlide key={`key-${id}`} className={styles.slide}>
+          <SwiperSlide key={'00'} className={styles.slide}>
             {
               <div className={styles.slide__container}>
                 <div className={styles.video}>
-                  <video id={`video-${id}`} width="240" height="484">
+                  <video id={`video-${id}`} width="240" height="484" controls>
                     <source src={video} type="video/mp4" />
                   </video>
                 </div>

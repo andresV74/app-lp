@@ -9,8 +9,8 @@ const AppLinks = ({ darkIcons, googleSize, appleSize } = props ) => (
 				<a href="#">
 					{
 						darkIcons ? 
-							<img src="/images/img-googlePlay-dark.svg" alt="Descárgala en el App Store" /> :
-							<img src="/images/img-googlePlay.svg" alt="Descárgala en el App Store" />
+							<img src="./images/img-googlePlay-dark.svg" alt="Descárgala en el App Store" /> :
+							<img src="./images/img-googlePlay.svg" alt="Descárgala en el App Store" />
 					}
 				</a>
 			</Link>
@@ -20,8 +20,8 @@ const AppLinks = ({ darkIcons, googleSize, appleSize } = props ) => (
 				<a href="#">
 					{
 						darkIcons ?
-					<img src="/images/img-appStore-dark.svg" alt="Disponible en Google Play" /> :
-					<img src="/images/img-appStore.svg" alt="Disponible en Google Play" />
+					<img src="./images/img-appStore-dark.svg" alt="Disponible en Google Play" /> :
+					<img src="./images/img-appStore.svg" alt="Disponible en Google Play" />
 					}
 				</a>
 			</Link>

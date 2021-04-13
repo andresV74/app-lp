@@ -1,12 +1,13 @@
 {
   "name": "btg-app",
   "version": "1.0.0",
-  "description": "BTG App onboarging landing page",
+  "description": "BTG App onboarding landing page",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "author": "Andrés Valencia",
   "license": "MIT",
