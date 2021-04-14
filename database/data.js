@@ -53,7 +53,7 @@ const data = {
     description: '',
     video: '/videos/vid-05\.mp4',
     attributes: [
-      'Consulta y descarga de extractos', 'Contacto Asesor', 'Actualización de datos', 'FAQ', 'PQR',
+      'Consulta y descarga de extractos', 'Contacto Asesor', 'FAQ', 'PQR',
     ],
     finalText: '',
   },
