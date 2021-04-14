@@ -8,13 +8,13 @@ const Banner = () => (
 			<div className={styles.banner__body}>
 				<h2 className={styles.title}>
 					<span className={styles.title__first}>APP</span>
-					<span className={styles.title__last}>BTG Pactual</span>
+					<span className={styles.title__last}> BTG Pactual</span>
 				</h2>
-				<h3 className={styles.body}>Una <strong>nueva</strong> forma de ir más allá en sus inversiones</h3>
-				<ul className={styles.appLinks}>
-					<AppLinks googleSize={'137'} appleSize={'135'} />
-				</ul>
+				<h3 className={styles.body}>Más asesoría, más conectividad con usted y sus inversiones</h3>
 			</div>
+			<ul className={styles.banner__appLinks}>
+				<AppLinks googleSize={'137'} appleSize={'135'} />
+			</ul>
 			<div className={styles.banner__image}>
 				<img src="./images/img-cellphone.png" />
 			</div>
