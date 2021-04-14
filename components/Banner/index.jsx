@@ -7,8 +7,8 @@ const Banner = () => (
 		<div className={styles.banner__container}>
 			<div className={styles.banner__body}>
 				<h2 className={styles.title}>
-					<span className={styles.title__first}>APP</span>
 					<span className={styles.title__last}> BTG Pactual</span>
+					<span className={styles.title__first}>app</span>
 				</h2>
 				<h3 className={styles.body}>Más asesoría, más conectividad con usted y sus inversiones</h3>
 			</div>
