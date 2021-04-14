@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Navigation, Pagination, Thumbs } from 'swiper'
 
@@ -30,9 +31,13 @@ const SwiperModule = () => {
         className={styles.thumb}
       >
         {swipeList.map(({id, icon, name}) => (
-          <SwiperSlide key={id} className={styles.slide}>
-            <img src={icon} alt={name} className={styles.slide__icon} />
-            <div className={styles.slide__title}>{name}</div>
+          <SwiperSlide key={`thumb-${id}`}>
+            <Link href="#">
+              <a className={styles.slide}>
+                <img src={icon} alt={name} className={styles.slide__icon} />
+                <div className={styles.slide__title}>{name}</div>
+              </a>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -45,23 +50,22 @@ const SwiperModule = () => {
         navigation
         spaceBetween={0}
         slidesPerView={1}
-        onInit={(swiper) => console.log('swiper initialized', swiper.el.lastElementChild.children)}
         onSlideChange={(swiper) => swiper.el.lastElementChild.children[swiper.activeIndex].firstElementChild.firstElementChild.firstElementChild.play()}
       >
         {swipeList.map(({id, video, icon, name, subtitle, description, attributes, finalText }) => (
-          <SwiperSlide key={'00'} className={styles.slide}>
+          <SwiperSlide key={`slide-${id}`} className={styles.slide}>
             {
               <div className={styles.slide__container}>
                 <div className={styles.video}>
-                  <video id={`video-${id}`} width="240" height="484" controls>
+                  <video id={`video-${id}`} width="240" height="484">
                     <source src={video} type="video/mp4" />
                   </video>
                 </div>
+                <div className={styles.title}>
+                  <img src={icon} alt={name} />
+                  <h3>{name}</h3>
+                </div>
                 <div className={styles.contents}>
-                  <div className={styles.contents__title}>
-                    <img src={icon} alt={name} />
-                    <h3>{name}</h3>
-                  </div>
                   <h4 className={styles.contents__subtitle}>{subtitle}</h4>
                   { description && <p className={styles.contents__description}>{description}</p> }
                   <ul className={styles.contents__attributes}>

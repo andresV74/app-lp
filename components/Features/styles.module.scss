@@ -11,11 +11,20 @@
 		justify-content: space-around;
 		max-width: 1050px;
 		margin: auto;
+
 	}
 
 	&__appLinks {
 		display: flex;
 		max-width: 330px;
 		margin: 70px auto 0;
+	}
+
+	@media (max-width: 709px) {
+		background-size: auto;
+
+		&__container {
+			flex-wrap: wrap;
+		}
 	}
 }
