@@ -126,28 +126,39 @@
 	margin: 10px 20px 0;
 
 	.slide {
-		display: block;
-		text-align: center;
+		padding-bottom: 6px;
+		filter: grayscale(100%);
+		opacity: 0.5;
 
-		&__icon {
-			width: 64px;
+		&:first-child {
+			border-bottom: 6px solid var(--color-midBlue);
+			opacity: 1;
 		}
 
-		&__title {
-			margin-top: 6px;
-			font-size: 1.125rem;
-			font-weight: 400;
-			color: var(--color-midBlue);
-		}
-
-		@media screen and (max-width: 660px) {
+		.button {
+			display: block;
+			text-align: center;
 
 			&__icon {
-				width: 48px;
+				width: 64px;
 			}
 
 			&__title {
-				font-size: clamp(0.65rem, 2.72vw, 1.125rem);
+				margin-top: 6px;
+				font-size: 1.125rem;
+				font-weight: 400;
+				color: var(--color-midBlue);
+			}
+
+			@media screen and (max-width: 660px) {
+
+				&__icon {
+					width: 48px;
+				}
+
+				&__title {
+					font-size: clamp(0.65rem, 2.72vw, 1.125rem);
+				}
 			}
 		}
 	}
